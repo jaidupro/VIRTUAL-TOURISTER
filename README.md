@@ -32,18 +32,14 @@
      - First of all I have designed a basic website and after that I have created a QNA MAKER and created a knowledeg base.then I have created a chatbot . 
      this chatbot is linked with the knowledge base.and this chatbot is linked in my webiste files.After completing this all coding work I had create a github repository and by using of static web app service,
      I have successfully hosted my website through github and azure static web app service.
-   <br><br>  **GitHub repository Url-** (https://github.com/Mohsinbro/healthcare)
-     ![GitHub repository screenshot](https://user-images.githubusercontent.com/105167575/169522783-ee0fa7ef-416c-40f4-a9b5-da0adea74250.png)
+   <br><br>  **GitHub repository Url-** (https://github.com/jaidupro/VIRTUAL-TOURISTER)
+     ![githuub srennshot](https://user-images.githubusercontent.com/105116097/178138698-352345c2-af0b-42ed-b047-1cf117475d84.png)
 
 
-   <br><br>**the url of the project to visit** - (https://wonderful-wave-082cb8a00.1.azurestaticapps.net)
+
+   <br><br>**the url of the project to visit** - (https://green-pond-0db490200.1.azurestaticapps.net/)
     <br><br> **this is how the project looks like**
-          ![Screenshot (76)](https://user-images.githubusercontent.com/105167575/169523524-be3c6087-dfd2-4254-972d-54e0f9dbc811.png)
-           ![Screenshot (77)](https://user-images.githubusercontent.com/105167575/169523582-6b8d031e-a2c7-4359-b20c-80e8986c21e4.png)
-            ![Screenshot (78)](https://user-images.githubusercontent.com/105167575/169523621-54ddde74-d66e-4eee-8040-3bad5496140e.png)
-            ![Screenshot (79)](https://user-images.githubusercontent.com/105167575/169523683-6bbd0947-228f-4913-9dab-c7418d85e6ee.png)
-           ![Screenshot (80)](https://user-images.githubusercontent.com/105167575/169523733-b92426e4-0150-4f2f-a09d-99aaba42fc51.png)
-            ![Screenshot (81)](https://user-images.githubusercontent.com/105167575/169523775-4d5999a2-dc93-4d1a-9e5c-94baf88da020.png)
-            ![Screenshot (82)](https://user-images.githubusercontent.com/105167575/169523860-20dcc2b0-b580-482d-9a36-cd888fd427fe.png)
+          ![final project look](https://user-images.githubusercontent.com/105116097/178138808-81e71e88-2c8d-4958-afd7-552d3e412087.png)
+
 
           <br><br>

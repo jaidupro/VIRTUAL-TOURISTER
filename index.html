@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            background-image: url("https://th.bing.com/th/id/R.49c98301c8364d0a5c1cfd06159543c8?rik=MTPAuXYfHz57AQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2015%2f06%2fWondrous-Statue-Of-Liberty-Wallpaper.jpg&ehk=XuglqwhSHKuDZkgCb837Uce9kNXR6kEGahF6EbHHe%2bo%3d&risl=&pid=ImgRaw&r=0");
+        }
+        h1{
+             color: black;
+        }
+        h2{
+            color: white;
+        }
+        h3{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1><center>VIRTUAL TOURISTER</center></h1>
+    <h2><center>Hi, Mr Explorer
+        <br>We are here to answer your queries to make your tour amazing
+    </center></h2>
+  <iframe id="chat" style="width: 800px; height: 400px;" src='https://webchat.botframework.com/embed/chitchatwithsaif-bot?s=W9kMshDB2Qg.5Atpa38WeQ2EjKq0Y3_jrfpL4vo-imwoIDjFJzWIaIk'></iframe>
+  <ul type="square">
+  <h3><li>It's an AI (Artificial Intelligence) based chatbot, Which is designed to help you for your tour purposes.</li> </h3>
+  <h3><li>you may ask questions , like - "Where should I go in winter season ?"</li></h3>
+  <h3><li>You may also ask some funny questions, which comes in your mind.</li></h3>
+  <h3><li>If you are facing problem , don't forget to open it on your desktop Computer.</li></h3>
+</ul>
+</body>
+<script>
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', "https://webchat.botframework.com/api/tokens", true);
+    xhr.setRequestHeader('W9kMshDB2Qg.5Atpa38WeQ2EjKq0Y3_jrfpL4vo-imwoIDjFJzWIaIk', 'BotConnector ' + 'W9kMshDB2Qg.5Atpa38WeQ2EjKq0Y3_jrfpL4vo-imwoIDjFJzWIaIk');
+    xhr.send();
+    xhr.onreadystatechange = processRequest;
+
+    function processRequest(e) {
+      if (xhr.readyState == 4  && xhr.status == 200) {
+        var response = JSON.parse(xhr.responseText);
+        document.getElementById("chat").src="https://webchat.botframework.com/embed/<botname>?t="+response
+      }
+    }
+
+  </script>
+</html>
